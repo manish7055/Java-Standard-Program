@@ -10,7 +10,7 @@ return false;
 public static int Reverse(int n){
 int sum=0;
 for(int i=0;i<n;n=n/10)
-sum=sum*10+n/10;
+sum=sum*10+n%10;
 return sum;
 
 }
